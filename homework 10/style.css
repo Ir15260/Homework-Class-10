@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 4em;
+  color: black;
+}
+
+.choco {
+  color: red;
+}
+
+.late {
+  color: blue;
+}
+
+.bars {
+  color: green;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation {
+  width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 8px;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+}
+
+.grid-container {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.grid-item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
